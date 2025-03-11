@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/01/2025 21:26:55</Date>
+	<Date>03/02/2025 13:54:23</Date>
 	<AppInfo>
 		<Version>2025.2.10293</Version>
 		<Licensed>Yes</Licensed>
@@ -450,7 +450,9 @@
 		<c>microsoft.windows.narratorquickstart 'Sprachausgabe'</c>
 		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
 		<c>microsoft.windows.peopleexperiencehost 'Windows Shell-Oberfläche'</c>
+		<c>microsoft.windows.secureassessmentbrowser 'Prüfung'</c>
 		<c>microsoft.windowsalarms 'Windows Clock'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
 		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
 		<c>microsoft.windowsterminal 'Windows-Terminal'</c>
@@ -618,6 +620,7 @@
 		<Feature name="Language.TextToSpeech~~~de-de~0.0.1.0">false</Feature>
 		<Feature name="Language.Basic~~~de-de~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
 		<Feature name="SmbDirect">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
@@ -652,6 +655,7 @@
 		<settings pass="oobeSystem">
 			<component name="Microsoft-Windows-International-Core">
 				<InputLocale>0407:00000407</InputLocale>
+				<SystemLocale>de-DE</SystemLocale>
 				<UILanguage>de-DE</UILanguage>
 				<UILanguageFallback>de-DE</UILanguageFallback>
 				<UserLocale>de-DE</UserLocale>
@@ -660,7 +664,7 @@
 				<TimeZone>Mitteleuropäische Zeit</TimeZone>
 				<OEMInformation>
 					<Manufacturer>NTLite</Manufacturer>
-					<Model>Windows 11 Castrated v12</Model>
+					<Model>Windows 11 Castrated v14</Model>
 					<SupportURL>vmw5.de</SupportURL>
 				</OEMInformation>
 				<OOBE>
@@ -687,6 +691,7 @@
 		<settings pass="windowsPE">
 			<component name="Microsoft-Windows-International-Core-WinPE">
 				<InputLocale>0407:00000407</InputLocale>
+				<SystemLocale>de-DE</SystemLocale>
 				<UILanguage>de-DE</UILanguage>
 				<UILanguageFallback>de-DE</UILanguageFallback>
 				<UserLocale>de-DE</UserLocale>
@@ -1241,6 +1246,7 @@
 				<Tweak name="parameters\PerformRouterDiscovery">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="UAC">
+				<Tweak name="System\FilterAdministratorToken">1</Tweak>
 				<Tweak name="PointAndPrint\RestrictDriverInstallationToAdministrators">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
@@ -1281,8 +1287,8 @@
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>D:\iventoy-1.0.20\iso\W11 Pro 24H2 DE x64 v12.iso</AutoIsoFile>
-		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 13</AutoIsoLabel>
+		<AutoIsoFile>D:\iventoy-1.0.20\iso\W11 Pro 24H2 DE x64 v14.iso</AutoIsoFile>
+		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 14</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
 	<Execution BeforeLogonMode="2">
@@ -1301,32 +1307,33 @@
 				<DestPath>\Windows\Setup\blank.ico</DestPath>
 				<Index>1</Index>
 			</Item>
-			<Item type="22">
-				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\WallpaperW11.jpg</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\WallpaperW11.jpg</DestPath>
-				<Index>2</Index>
-			</Item>
 			<Item type="19">
 				<Path>net</Path>
 				<Params>accounts /maxpwage:unlimited</Params>
-				<Index>3</Index>
+				<Index>2</Index>
 			</Item>
 			<Item type="19">
 				<Path>powershell.exe</Path>
 				<Params>Set-Volume -DriveLetter C -NewFileSystemLabel "Windows"</Params>
-				<Index>4</Index>
+				<Index>3</Index>
 			</Item>
 			<Item type="17">
 				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\7z2409-x64.exe</Path>
 				<Params>/S</Params>
 				<DestMode>1</DestMode>
-				<Index>5</Index>
+				<Index>4</Index>
 			</Item>
 			<Item type="22">
 				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\LockscreenW11.jpg</Path>
 				<DestMode>1</DestMode>
 				<DestPath>\Windows\Web\Screen\img100.jpg</DestPath>
+				<Index>5</Index>
+			</Item>
+			<Item type="21">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\WallpaperW11.jpg</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\WallpaperW11.jpg</DestPath>
 				<Index>6</Index>
 			</Item>
 			<Item type="30">
