@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/21/2024 21:34:21</Date>
+	<Date>01/16/2025 14:04:41</Date>
 	<AppInfo>
-		<Version>2024.11.10169</Version>
+		<Version>2024.12.10221</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows Server 2019 Standard Evaluation 1809 x64 - 10.0.17763.6189 (de-DE)</Host>
+		<Host>Windows Server 2019 Standard 1809 x64 - 10.0.17763.6659 (de-DE)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1742 (de-DE)</Version>
@@ -27,6 +27,7 @@
 		<c>clipboardusersvc 'Clipboard User Service'</c>
 		<c>clipchamp.clipchamp</c>
 		<c>clouddesktop 'Cloud Desktop'</c>
+		<c>clouddownload 'Windows Recovery (WinRE) - Cloud download'</c>
 		<c>cloudnotifications 'Cloud Notifications'</c>
 		<c>comlegacyole32 'COM OLE 2.x - Legacy - 32 bit'</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
@@ -70,6 +71,7 @@
 		<c>driver_wvpci.inf</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
+		<c>edgeupdate 'Microsoft Edge Update'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
@@ -86,12 +88,12 @@
 		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>hwsupport_floppy 'Floppy disk'</c>
 		<c>hwsupport_infrared 'Infrared devices'</c>
-		<c>hypervguest 'Hyper-V Integration Services'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Program'</c>
 		<c>internetexplorer 'Internet Explorer'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
+		<c>ipt 'Identity Protection Technology (Intel IPT)'</c>
 		<c>ipxlatcfg 'IP Translation Configuration Service'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
 		<c>isoburn 'Windows Disc Image Burning Tool'</c>
@@ -458,7 +460,6 @@
 		<c>pos 'Point of Service (POS)'</c>
 		<c>pushnotificationssvc 'Windows Push Notifications Service (System)'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
-		<c>rdpserverlic 'Remote Desktop Licensing'</c>
 		<c>regedit32 'Registry Editor - 32 bit'</c>
 		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
@@ -468,7 +469,10 @@
 		<c>rightsmanagement 'Rights Management support'</c>
 		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
 		<c>screensavers</c>
+		<c>scripto</c>
 		<c>search 'Windows Search'</c>
+		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>settingsync 'Setting Sync'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>sharemediacpl 'Share Media Control Panel'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
@@ -483,6 +487,7 @@
 		<c>stepsrecorder 'Steps Recorder'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>sustainabilityservice 'Sustainability Service'</c>
+		<c>symboliclinks 'Legacy symbolic links'</c>
 		<c>synccenter 'Sync Center'</c>
 		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
 		<c>taskmanager32 'Task Manager - 32 bit'</c>
@@ -501,7 +506,9 @@
 		<c>winai 'Windows AI Machine Learning'</c>
 		<c>windows.cbspreview 'Windows-Barcodes-Vorschau'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
+		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
 		<c>xbox 'Xbox - Core'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
@@ -513,7 +520,8 @@
 			<Feature enabled="yes">USBCamera</Feature>
 			<Feature enabled="yes">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
-			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">Docker</Feature>
+			<Feature enabled="yes">EA Anti-Cheat</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
@@ -527,8 +535,8 @@
 			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="yes">Printing</Feature>
-			<Feature enabled="yes">Recommended-All</Feature>
-			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="yes">RDPServer</Feature>
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="yes">Scanning</Feature>
 			<Feature enabled="yes">ServicingStack</Feature>
@@ -610,7 +618,7 @@
 				<TimeZone>Mitteleuropäische Zeit</TimeZone>
 				<OEMInformation>
 					<Manufacturer>NTLite</Manufacturer>
-					<Model>Windows 11 Castrated v10</Model>
+					<Model>Windows 11 Castrated v11</Model>
 					<SupportURL>vmw5.de</SupportURL>
 				</OEMInformation>
 				<OOBE>
@@ -1210,60 +1218,90 @@
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>D:\template\iso\W11 Pro 24H2 x64 DE castrated v10.iso</AutoIsoFile>
-		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 10</AutoIsoLabel>
+		<AutoIsoFile>D:\template\iso\Win 11 Pro 24H2 DE x64 v11.iso</AutoIsoFile>
+		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 11</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
 	<Execution BeforeLogonMode="2">
 		<Remove></Remove>
 		<Change></Change>
 		<Add>
-			<Item type="19">
-				<Path>powercfg</Path>
-				<Params>/hibernate off</Params>
-				<Index>0</Index>
-			</Item>
-			<Item type="19">
-				<Path>net</Path>
-				<Params>accounts /maxpwage:unlimited</Params>
-				<Index>1</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\Ninite Firefox Installer.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Ninite Firefox Installer.exe</DestPath>
-				<Index>2</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\Ninite Edge Installer.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Ninite Edge Installer.exe</DestPath>
-				<Index>3</Index>
-			</Item>
-			<Item type="29">
-				<Path>D:\After-Install Files\RenameC-Drive.ps1</Path>
-				<Params></Params>
-				<DestMode>1</DestMode>
-				<Index>4</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\OOSU10.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\OOSU10.exe</DestPath>
-				<Index>5</Index>
-			</Item>
 			<Item type="21">
 				<Path>D:\After-Install Files\WindowsWallpaper-NTLite.jpg</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<DestPath>\NTLite\WindowsWallpaper-NTLite.jpg</DestPath>
-				<Index>6</Index>
+				<Index>0</Index>
+			</Item>
+			<Item type="22">
+				<Path>D:\After-Install Files\Ninite Firefox Installer.exe</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\Ninite Firefox Installer.exe</DestPath>
+				<Index>1</Index>
+			</Item>
+			<Item type="22">
+				<Path>D:\After-Install Files\Ninite Edge Installer.exe</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\Ninite Edge Installer.exe</DestPath>
+				<Index>2</Index>
+			</Item>
+			<Item type="22">
+				<Path>D:\After-Install Files\OOSU10.exe</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\OOSU10.exe</DestPath>
+				<Index>3</Index>
 			</Item>
 			<Item type="22">
 				<Path>D:\After-Install Files\Disable-NetBIOS.ps1</Path>
 				<DestMode>1</DestMode>
 				<DestPath>\NTLite\Disable-NetBIOS.ps1</DestPath>
+				<Index>4</Index>
+			</Item>
+			<Item type="22">
+				<Path>D:\After-Install Files\Winaero Tweaker.url</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\Winaero Tweaker.url</DestPath>
+				<Index>5</Index>
+			</Item>
+			<Item type="23">
+				<Path>D:\After-Install Files\UACAdminPW</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\NTLite\UACAdminPW\</DestPath>
+				<Index>6</Index>
+			</Item>
+			<Item type="22">
+				<Path>D:\After-Install Files\disable_shortcut_overlay\blank.ico</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\blank.ico</DestPath>
 				<Index>7</Index>
+			</Item>
+			<Item type="27">
+				<Path>D:\After-Install Files\disable_shortcut_overlay\remove-shortcut-overlay-icon.reg</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>8</Index>
+			</Item>
+			<Item type="19">
+				<Path>powercfg</Path>
+				<Params>/hibernate off</Params>
+				<Index>9</Index>
+			</Item>
+			<Item type="19">
+				<Path>net</Path>
+				<Params>accounts /maxpwage:unlimited</Params>
+				<Index>10</Index>
+			</Item>
+			<Item type="29">
+				<Path>D:\After-Install Files\RenameC-Drive.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>11</Index>
+			</Item>
+			<Item type="17">
+				<Path>D:\After-Install Files\7z2409-x64.exe</Path>
+				<Params>/S</Params>
+				<DestMode>1</DestMode>
+				<Index>12</Index>
 			</Item>
 			<Item type="30">
 				<Path>D:\After-Install Files\nosound.ps1</Path>
