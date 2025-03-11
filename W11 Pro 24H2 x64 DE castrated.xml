@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>02/28/2025 20:37:31</Date>
+	<Date>03/01/2025 21:26:55</Date>
 	<AppInfo>
 		<Version>2025.2.10293</Version>
 		<Licensed>Yes</Licensed>
@@ -1215,14 +1215,16 @@
 				<Tweak name="Windows\DisableATMFD">1</Tweak>
 				<Tweak name="Activation\Manual">1</Tweak>
 				<Tweak name="BitLocker\PreventDeviceEncryption">1</Tweak>
+				<Tweak name="WindowsUpdate\AllowTemporaryEnterpriseFeatureControl">0</Tweak>
 				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
 				<Tweak name="OOBE\BypassNRO">1</Tweak>
 				<Tweak name="System\NoConnectedUser">3</Tweak>
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
 				<Tweak name="Memory Management\PagingFiles1">-:\pagefile.sys</Tweak>
+				<Tweak name="EMDMgmt\GroupPolicyDisallowCaches">1</Tweak>
 				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
 				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
-				<Tweak name="MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU">1</Tweak>
+				<Tweak name=".NETFramework\OnlyUseLatestCLR">1</Tweak>
 				<Tweak name="System\VerboseStatus">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdateTasks">
@@ -1235,7 +1237,11 @@
 				<Tweak name="parameters\DeadGWDetectDefault">0</Tweak>
 				<Tweak name="parameters\DisableReverseAddressRegistrations">1</Tweak>
 				<Tweak name="parameters\DisableDynamicUpdate">1</Tweak>
+				<Tweak name="parameters\EnableICMPRedirect">0</Tweak>
 				<Tweak name="parameters\PerformRouterDiscovery">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="PointAndPrint\RestrictDriverInstallationToAdministrators">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
 				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
@@ -1245,6 +1251,7 @@
 			<TweakGroup name="WindowsUpdate">
 				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
 				<Tweak name="DeliveryOptimization\DODownloadMode">99</Tweak>
+				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">1</Tweak>
 				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
 				<Tweak name="Settings\HideMCTLink">1</Tweak>
 				<Tweak name="Settings\IsExpedited">0</Tweak>
@@ -1274,8 +1281,8 @@
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>D:\Nextcloud\NTLite\Windows 11 Pro 24H2\Win 11 Pro 24H2 DE x64 v12.iso</AutoIsoFile>
-		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 12</AutoIsoLabel>
+		<AutoIsoFile>D:\iventoy-1.0.20\iso\W11 Pro 24H2 DE x64 v12.iso</AutoIsoFile>
+		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 13</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
 	<Execution BeforeLogonMode="2">
@@ -1294,9 +1301,8 @@
 				<DestPath>\Windows\Setup\blank.ico</DestPath>
 				<Index>1</Index>
 			</Item>
-			<Item type="21">
+			<Item type="22">
 				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\WallpaperW11.jpg</Path>
-				<Params></Params>
 				<DestMode>1</DestMode>
 				<DestPath>\NTLite\WallpaperW11.jpg</DestPath>
 				<Index>2</Index>
@@ -1317,10 +1323,10 @@
 				<DestMode>1</DestMode>
 				<Index>5</Index>
 			</Item>
-			<Item type="27">
-				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\remove-shortcut-overlay-icon.reg</Path>
-				<Params></Params>
+			<Item type="22">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\LockscreenW11.jpg</Path>
 				<DestMode>1</DestMode>
+				<DestPath>\Windows\Web\Screen\img100.jpg</DestPath>
 				<Index>6</Index>
 			</Item>
 			<Item type="30">
@@ -1335,21 +1341,26 @@
 				<DestMode>1</DestMode>
 				<Index>1001</Index>
 			</Item>
+			<Item type="30">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\Disable-NetBIOS.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1002</Index>
+			</Item>
 		</Add>
 	</Execution>
 	<Registry>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\BitlockerAllowPIN.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\ConfirmationCheckBoxDoForAll.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable Aero Shake.reg</File>
-		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\disable onedrive user folder backup.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable Windows 11 startup sound.reg</File>
-		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable_sign_in_to_Microsoft_Edge.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableLMHosts.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableO365Autodiscover.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableOffice365SimplifiedAccountCreation.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableProxyAutodetect.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableStartupDelay.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableTelemetry.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable_sign_in_to_Microsoft_Edge.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\ExplorerNoShaking.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\HideInsiderPage.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\HideUnwantedSettings.reg</File>
@@ -1366,7 +1377,8 @@
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoSearchboxSuggestions.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoTimeline.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoUseStoreOpenWith.reg</File>
-		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\RegFix Power.reg</File>
 		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\TaskbarNoCortanaTaskview.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\disable onedrive user folder backup.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\remove-shortcut-overlay-icon.reg</File>
 	</Registry>
 </Preset>
