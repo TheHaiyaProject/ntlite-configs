@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/16/2025 14:04:41</Date>
+	<Date>02/28/2025 20:37:31</Date>
 	<AppInfo>
-		<Version>2024.12.10221</Version>
+		<Version>2025.2.10293</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows Server 2019 Standard 1809 x64 - 10.0.17763.6659 (de-DE)</Host>
+		<Host>Windows Server 2019 Standard 1809 x64 - 10.0.17763.6775 (de-DE)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1742 (de-DE)</Version>
@@ -21,20 +21,30 @@
 		<c>audit 'Windows Audit'</c>
 		<c>autoplay</c>
 		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>azman32 'Authorization Manager - 32 bit'</c>
+		<c>backgroundmediaplayer32 'Background Media Player - 32 bit'</c>
+		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
 		<c>ceip 'CEIP (SQM)'</c>
+		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>clipboardusersvc 'Clipboard User Service'</c>
 		<c>clipchamp.clipchamp</c>
 		<c>clouddesktop 'Cloud Desktop'</c>
 		<c>clouddownload 'Windows Recovery (WinRE) - Cloud download'</c>
 		<c>cloudnotifications 'Cloud Notifications'</c>
 		<c>comlegacyole32 'COM OLE 2.x - Legacy - 32 bit'</c>
+		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
+		<c>compmgmt32 'Computer Management - 32 bit'</c>
+		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
 		<c>deviceupdatecenter 'Device Update Center'</c>
+		<c>devmgmt32 'Device Manager - 32 bit'</c>
 		<c>directml 'Direct Machine Learning (DirectML)'</c>
+		<c>diskmgmt32 'Disk Management - 32 bit'</c>
 		<c>diskquota32 'Disk Quota - 32 bit'</c>
+		<c>diskraid 'DiskRAID tool'</c>
 		<c>driver_c_barcodescanner.inf</c>
 		<c>driver_c_cashdrawer.inf</c>
 		<c>driver_c_fdc.inf</c>
@@ -42,6 +52,7 @@
 		<c>driver_c_infrared.inf</c>
 		<c>driver_c_linedisplay.inf</c>
 		<c>driver_c_magneticstripereader.inf</c>
+		<c>driver_c_proximity.inf</c>
 		<c>driver_c_receiptprinter.inf</c>
 		<c>driver_cht4vx64.inf</c>
 		<c>driver_fdc.inf</c>
@@ -69,25 +80,34 @@
 		<c>driver_wvmic_ext.inf</c>
 		<c>driver_wvmic_vss.inf</c>
 		<c>driver_wvpci.inf</c>
+		<c>dvdplay 'DVD Play'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
 		<c>edgeupdate 'Microsoft Edge Update'</c>
+		<c>edgewebviewlegacy 'WebView2 Runtime (Legacy)'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
+		<c>entappsvc '[beta] Enterprise App Management Service'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>eventviewer32 'Event Viewer - 32 bit'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
+		<c>firstlogonanim 'First-logon animation'</c>
 		<c>flipgridpwa 'Flipgrid PWA (InboxApp)'</c>
 		<c>folderredirection 'Folder Redirection'</c>
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
+		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
 		<c>gameexplorer 'Game Explorer'</c>
+		<c>guardedhost 'Guarded Host'</c>
 		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
 		<c>help 'Windows Help content'</c>
 		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>hwsupport_floppy 'Floppy disk'</c>
 		<c>hwsupport_infrared 'Infrared devices'</c>
+		<c>icu32 'International Unicode Components - 32 bit'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Program'</c>
@@ -97,6 +117,7 @@
 		<c>ipxlatcfg 'IP Translation Configuration Service'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
 		<c>isoburn 'Windows Disc Image Burning Tool'</c>
+		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kl-00000401 'Arabisch (101)'</c>
 		<c>kl-00000402 'Bulgarisch (Schreibmaschine)'</c>
 		<c>kl-00000404 'Chinesisch (traditionell) - USA'</c>
@@ -391,9 +412,11 @@
 		<c>langvietnamese 'Vietnamese'</c>
 		<c>langwelsh 'Welsh'</c>
 		<c>laps 'Windows Local Administrator Password Solution(LAPS)'</c>
+		<c>lcu 'Cumulative Update cache (LCU)'</c>
 		<c>legacycomponents 'Legacy components'</c>
 		<c>livecaptions 'Live Captions'</c>
 		<c>location 'Location Service'</c>
+		<c>lusrmgr32 'Local Users and Groups Manager - 32 bit'</c>
 		<c>mapcontrol 'Map Control'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
@@ -416,7 +439,9 @@
 		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
 		<c>microsoft.paint 'Paint'</c>
 		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.rawimageextension 'Raw Image Extension'</c>
 		<c>microsoft.screensketch 'Snipping Tool'</c>
+		<c>microsoft.sechealthui 'Windows Defender'</c>
 		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
 		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Sperrbildschirm-App "Zugewiesener Zugriff"'</c>
@@ -424,11 +449,13 @@
 		<c>microsoft.windows.devhome 'Dev Home'</c>
 		<c>microsoft.windows.narratorquickstart 'Sprachausgabe'</c>
 		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
+		<c>microsoft.windows.peopleexperiencehost 'Windows Shell-Oberfläche'</c>
 		<c>microsoft.windowsalarms 'Windows Clock'</c>
 		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
 		<c>microsoft.windowsterminal 'Windows-Terminal'</c>
 		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
 		<c>microsoft.xboxgamingoverlay 'Game Bar'</c>
 		<c>microsoft.xboxspeechtotextoverlay 'Game Speech Window'</c>
 		<c>microsoft.yourphone 'Phone Link'</c>
@@ -439,6 +466,7 @@
 		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
 		<c>midi 'Microsoft GS Wavetable SW Synth (MIDI)'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
 		<c>mpe 'Microsoft Privacy Engine'</c>
 		<c>msteams 'Microsoft Teams'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
@@ -450,6 +478,8 @@
 		<c>netbios 'NetBIOS over TCP transport'</c>
 		<c>nettopology 'Link-Layer Topology Discovery protocol (LLTD)'</c>
 		<c>nfc 'Near Field Communication (NFC)'</c>
+		<c>nfsclient 'NFS Administrative Tools'</c>
+		<c>notepad 'Notepad (Legacy)'</c>
 		<c>ntvdm 'NTVDM 16 bit subsystem'</c>
 		<c>onedrive</c>
 		<c>outlookpwa 'Outlook PWA (InboxApp)'</c>
@@ -457,9 +487,15 @@
 		<c>pdfreader 'Windows Reader (PDF)'</c>
 		<c>photocodec32 'Photo codec - 32 bit'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
+		<c>picturepassword 'Picture password'</c>
 		<c>pos 'Point of Service (POS)'</c>
+		<c>print3d32 'Print 3D - 32 bit'</c>
+		<c>proximity 'Proximity - Wi-Fi Direct'</c>
 		<c>pushnotificationssvc 'Windows Push Notifications Service (System)'</c>
+		<c>pushtoinstall 'Windows PushToInstall Service'</c>
+		<c>rdmaping 'Remote Direct Memory Access (RDMA) ping tool'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>readyboost</c>
 		<c>regedit32 'Registry Editor - 32 bit'</c>
 		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
@@ -472,6 +508,7 @@
 		<c>scripto</c>
 		<c>search 'Windows Search'</c>
 		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
 		<c>settingsync 'Setting Sync'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>sharemediacpl 'Share Media Control Panel'</c>
@@ -483,24 +520,30 @@
 		<c>soundthemes 'Sound Themes'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>srumon 'Data Usage service'</c>
+		<c>sstackwow64 'Servicing stack - 32 bit'</c>
 		<c>startexperiencesapp 'Start Experiences (InboxApp)'</c>
 		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>storagemanagement32 'Storage Management - 32 bit'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>sustainabilityservice 'Sustainability Service'</c>
 		<c>symboliclinks 'Legacy symbolic links'</c>
 		<c>synccenter 'Sync Center'</c>
 		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
 		<c>taskmanager32 'Task Manager - 32 bit'</c>
+		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
 		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>tftpclient 'TFTP client'</c>
+		<c>tpmmmc32 'Trusted Platform Module (TPM) (management console) - 32 bit'</c>
 		<c>troubleshootingsvc 'Recommended Troubleshooting service'</c>
 		<c>unexpectedcodepath 'Unexpected Codepath'</c>
 		<c>universalprintsvc 'Universal Print Management Service'</c>
+		<c>waasassessment 'Windows Update Medic Service'</c>
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>webclient</c>
+		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>wificloudstore 'WiFi Sync Provider'</c>
 		<c>wifinetworkmanager 'Wi-Fi Network Manager (Wi-Fi Sense)'</c>
 		<c>winai 'Windows AI Machine Learning'</c>
@@ -526,7 +569,6 @@
 			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
 			<Feature enabled="yes">Kaspersky</Feature>
-			<Feature enabled="yes">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
@@ -547,6 +589,7 @@
 			<Feature enabled="yes">SafeMode</Feature>
 			<Feature enabled="yes">TeamViewer</Feature>
 			<Feature enabled="yes">Recommended-Tablet</Feature>
+			<Feature enabled="no">HostRefresh</Feature>
 			<Feature enabled="yes">USBModem</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
@@ -609,7 +652,6 @@
 		<settings pass="oobeSystem">
 			<component name="Microsoft-Windows-International-Core">
 				<InputLocale>0407:00000407</InputLocale>
-				<SystemLocale>de</SystemLocale>
 				<UILanguage>de-DE</UILanguage>
 				<UILanguageFallback>de-DE</UILanguageFallback>
 				<UserLocale>de-DE</UserLocale>
@@ -618,7 +660,7 @@
 				<TimeZone>Mitteleuropäische Zeit</TimeZone>
 				<OEMInformation>
 					<Manufacturer>NTLite</Manufacturer>
-					<Model>Windows 11 Castrated v11</Model>
+					<Model>Windows 11 Castrated v12</Model>
 					<SupportURL>vmw5.de</SupportURL>
 				</OEMInformation>
 				<OOBE>
@@ -645,7 +687,6 @@
 		<settings pass="windowsPE">
 			<component name="Microsoft-Windows-International-Core-WinPE">
 				<InputLocale>0407:00000407</InputLocale>
-				<SystemLocale>de</SystemLocale>
 				<UILanguage>de-DE</UILanguage>
 				<UILanguageFallback>de-DE</UILanguageFallback>
 				<UserLocale>de-DE</UserLocale>
@@ -683,12 +724,14 @@
 	<Tweaks>
 		<Settings>
 			<TweakGroup name="AutoLogger">
+				<Tweak name="CimFSUnionFS-Filter\Start">0</Tweak>
 				<Tweak name="Circular Kernel Context Logger\Start">0</Tweak>
 				<Tweak name="CloudExperienceHostOobe\Start">0</Tweak>
 				<Tweak name="DefenderApiLogger\Start">0</Tweak>
 				<Tweak name="DefenderAuditLogger\Start">0</Tweak>
 				<Tweak name="DiagLog\Start">0</Tweak>
 				<Tweak name="Diagtrack-Listener\Start">0</Tweak>
+				<Tweak name="FilterMgr-Logger\Start">0</Tweak>
 				<Tweak name="LwtNetLog\Start">0</Tweak>
 				<Tweak name="Microsoft-Windows-Rdp-Graphics-RdpIdd-Trace\Start">0</Tweak>
 				<Tweak name="Microsoft-Windows-Setup\Start">0</Tweak>
@@ -713,6 +756,7 @@
 				<Tweak name="QuietHours\Enable">0</Tweak>
 				<Tweak name="Search\SearchboxTaskbarMode">0</Tweak>
 				<Tweak name="Advanced\TaskbarMn">0</Tweak>
+				<Tweak name="Dsh\AllowNewsAndInterests">0</Tweak>
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
 				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">1</Tweak>
 			</TweakGroup>
@@ -933,6 +977,7 @@
 				<Tweak name="Microsoft-Windows-ReadyBoost\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-ReadyBoostDriver\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-ReFS\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ReFsDedupSvc\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Admin\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteApp and Desktop Connections\Operational\Enabled">0</Tweak>
 				<Tweak name="Microsoft-Windows-RemoteAssistance\Admin\Enabled">0</Tweak>
@@ -1092,29 +1137,31 @@
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
 				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="cmd\HideBasedOnVelocityId">0</Tweak>
+				<Tweak name="{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}\HiddenByDefault">1</Tweak>
+				<Tweak name="{f874310e-b6b7-47dc-bc84-b9e6b38f5903}\HiddenByDefault">1</Tweak>
 				<Tweak name="{031E4825-7B94-4dc3-B131-E946B44C8DD5}\System.IsPinnedToNameSpaceTree">0</Tweak>
 				<Tweak name="{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder\Attributes">-1332477852</Tweak>
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
 				<Tweak name="Advanced\DontUsePowerShellOnWinX">1</Tweak>
-				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
 				<Tweak name="Explorer\ShowCloudFilesInQuickAccess">0</Tweak>
 				<Tweak name="Advanced\ShowTaskViewButton">0</Tweak>
 				<Tweak name="Advanced\SharingWizardOn">0</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Network">
+				<Tweak name="Parameters\EnableDnr">0</Tweak>
 				<Tweak name="DNSClient\DisableSmartNameResolution">1</Tweak>
 				<Tweak name="Parameters\DisableParallelAandAAAA">1</Tweak>
 				<Tweak name="DNSClient\EnableMulticast">0</Tweak>
 				<Tweak name="System\LocalAccountTokenFilterPolicy">0</Tweak>
 				<Tweak name="NewNetworkWindowOff\NewNetworkWindowOff">1</Tweak>
+				<Tweak name="LanmanWorkstation\AllowInsecureGuestAuth">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
-				<Tweak name="FlyoutMenuSettings\ShowHibernateOption">0</Tweak>
-				<Tweak name="FlyoutMenuSettings\ShowSleepOption">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Privacy">
+				<Tweak name="radios\Value">Deny</Tweak>
 				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
 				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
 				<Tweak name="System\AllowExperimentation">0</Tweak>
@@ -1144,17 +1191,21 @@
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
 				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="Packages\InstallLocation">0</Tweak>
 				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
 				<Tweak name="Search\BingSearchEnabled">0</Tweak>
 				<Tweak name="TIPC\Enabled">0</Tweak>
 				<Tweak name="System\EnableCdp">0</Tweak>
 				<Tweak name="Explorer\ShowFrequent">0</Tweak>
+				<Tweak name="AccountNotifications\EnableAccountNotifications">0</Tweak>
 				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
 				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
 				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
+				<Tweak name="Settings\InsightsEnabled">0</Tweak>
 				<Tweak name="AnqpCache\OsuRegistrationStatus">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
 				<Tweak name="WindowsCopilot\TurnOffWindowsCopilot">1</Tweak>
+				<Tweak name="WindowsAI\DisableAIDataAnalysis">1</Tweak>
 				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="StartTweaks">
@@ -1169,11 +1220,16 @@
 				<Tweak name="System\NoConnectedUser">3</Tweak>
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
 				<Tweak name="Memory Management\PagingFiles1">-:\pagefile.sys</Tweak>
-				<Tweak name="3\1806">0</Tweak>
 				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
 				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
-				<Tweak name="System\DisableAutomaticRestartSignOn">1</Tweak>
+				<Tweak name="MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU">1</Tweak>
 				<Tweak name="System\VerboseStatus">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdateTasks">
+				<Tweak name="CrossDeviceUpdate\CrossDeviceUpdate">0</Tweak>
+				<Tweak name="DevHomeUpdate\DevHomeUpdate">0</Tweak>
+				<Tweak name="EdgeUpdate\EdgeUpdate">0</Tweak>
+				<Tweak name="OutlookUpdate\OutlookUpdate">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="TCPIPSettings">
 				<Tweak name="parameters\DeadGWDetectDefault">0</Tweak>
@@ -1183,6 +1239,7 @@
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
 				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
 				<Tweak name="Policy\VerifiedAndReputablePolicyState">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdate">
@@ -1192,13 +1249,11 @@
 				<Tweak name="Settings\HideMCTLink">1</Tweak>
 				<Tweak name="Settings\IsExpedited">0</Tweak>
 				<Tweak name="Settings\RestartNotificationsAllowed2">1</Tweak>
-				<Tweak name="AU\AUOptions">2</Tweak>
 			</TweakGroup>
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
 				<Tweak name="AppIDSvc\AppIDSvc">4</Tweak>
-				<Tweak name="LanmanWorkstation\LanmanWorkstation">4</Tweak>
 				<Tweak name="Themes\Themes">3</Tweak>
 				<Tweak name="iphlpsvc\iphlpsvc">4</Tweak>
 				<Tweak name="McpManagementService\McpManagementService">4</Tweak>
@@ -1215,140 +1270,103 @@
 			<Task>imageSaveTrim</Task>
 			<Task>deledition_boot.wim_01_9_64</Task>
 			<Task>imageFormatWim</Task>
+			<Task>tweaksettings_boot.wim_02_2_64</Task>
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>D:\template\iso\Win 11 Pro 24H2 DE x64 v11.iso</AutoIsoFile>
-		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 11</AutoIsoLabel>
+		<AutoIsoFile>D:\Nextcloud\NTLite\Windows 11 Pro 24H2\Win 11 Pro 24H2 DE x64 v12.iso</AutoIsoFile>
+		<AutoIsoLabel>W11 Pro 24H2 x64 DE castrated 12</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
 	<Execution BeforeLogonMode="2">
 		<Remove></Remove>
 		<Change></Change>
 		<Add>
-			<Item type="21">
-				<Path>D:\After-Install Files\WindowsWallpaper-NTLite.jpg</Path>
-				<Params></Params>
+			<Item type="23">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\NTLite-Folder</Path>
 				<DestMode>1</DestMode>
-				<DestPath>\NTLite\WindowsWallpaper-NTLite.jpg</DestPath>
+				<DestPath>\NTLite\</DestPath>
 				<Index>0</Index>
 			</Item>
 			<Item type="22">
-				<Path>D:\After-Install Files\Ninite Firefox Installer.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Ninite Firefox Installer.exe</DestPath>
-				<Index>1</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\Ninite Edge Installer.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Ninite Edge Installer.exe</DestPath>
-				<Index>2</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\OOSU10.exe</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\OOSU10.exe</DestPath>
-				<Index>3</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\Disable-NetBIOS.ps1</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Disable-NetBIOS.ps1</DestPath>
-				<Index>4</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\Winaero Tweaker.url</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\Winaero Tweaker.url</DestPath>
-				<Index>5</Index>
-			</Item>
-			<Item type="23">
-				<Path>D:\After-Install Files\UACAdminPW</Path>
-				<DestMode>1</DestMode>
-				<DestPath>\NTLite\UACAdminPW\</DestPath>
-				<Index>6</Index>
-			</Item>
-			<Item type="22">
-				<Path>D:\After-Install Files\disable_shortcut_overlay\blank.ico</Path>
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\blank.ico</Path>
 				<DestMode>1</DestMode>
 				<DestPath>\Windows\Setup\blank.ico</DestPath>
-				<Index>7</Index>
+				<Index>1</Index>
 			</Item>
-			<Item type="27">
-				<Path>D:\After-Install Files\disable_shortcut_overlay\remove-shortcut-overlay-icon.reg</Path>
+			<Item type="21">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\WallpaperW11.jpg</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
-				<Index>8</Index>
-			</Item>
-			<Item type="19">
-				<Path>powercfg</Path>
-				<Params>/hibernate off</Params>
-				<Index>9</Index>
+				<DestPath>\NTLite\WallpaperW11.jpg</DestPath>
+				<Index>2</Index>
 			</Item>
 			<Item type="19">
 				<Path>net</Path>
 				<Params>accounts /maxpwage:unlimited</Params>
-				<Index>10</Index>
+				<Index>3</Index>
 			</Item>
-			<Item type="29">
-				<Path>D:\After-Install Files\RenameC-Drive.ps1</Path>
-				<Params></Params>
-				<DestMode>1</DestMode>
-				<Index>11</Index>
+			<Item type="19">
+				<Path>powershell.exe</Path>
+				<Params>Set-Volume -DriveLetter C -NewFileSystemLabel "Windows"</Params>
+				<Index>4</Index>
 			</Item>
 			<Item type="17">
-				<Path>D:\After-Install Files\7z2409-x64.exe</Path>
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\7z2409-x64.exe</Path>
 				<Params>/S</Params>
 				<DestMode>1</DestMode>
-				<Index>12</Index>
+				<Index>5</Index>
+			</Item>
+			<Item type="27">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\remove-shortcut-overlay-icon.reg</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>6</Index>
 			</Item>
 			<Item type="30">
-				<Path>D:\After-Install Files\nosound.ps1</Path>
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\nosound.ps1</Path>
 				<Params></Params>
 				<DestMode>1</DestMode>
 				<Index>1000</Index>
 			</Item>
+			<Item type="28">
+				<Path>D:\Nextcloud\NTLite\NTLite-Stuff\StrictAdminPW.reg</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1001</Index>
+			</Item>
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\Registry-Tweaks\BitlockerAllowPIN.reg</File>
-		<File>D:\Registry-Tweaks\ConfirmationCheckBoxDoForAll.reg</File>
-		<File>D:\Registry-Tweaks\Disable Aero Shake.reg</File>
-		<File>D:\Registry-Tweaks\Disable Windows 11 startup sound.reg</File>
-		<File>D:\Registry-Tweaks\DisableLMHosts.reg</File>
-		<File>D:\Registry-Tweaks\DisableO365Autodiscover.reg</File>
-		<File>D:\Registry-Tweaks\DisableOffice365SimplifiedAccountCreation.reg</File>
-		<File>D:\Registry-Tweaks\DisableProxyAutodetect.reg</File>
-		<File>D:\Registry-Tweaks\DisableStartupDelay.reg</File>
-		<File>D:\Registry-Tweaks\DisableTelemetry.reg</File>
-		<File>D:\Registry-Tweaks\DisableW11Chat.reg</File>
-		<File>D:\Registry-Tweaks\DisableWPAD.reg</File>
-		<File>D:\Registry-Tweaks\Disable_Windows_Copilot.reg</File>
-		<File>D:\Registry-Tweaks\Disable_sign_in_to_Microsoft_Edge.reg</File>
-		<File>D:\Registry-Tweaks\EdgeRestrictions.reg</File>
-		<File>D:\Registry-Tweaks\ExplorerCMDinRightclickStart.reg</File>
-		<File>D:\Registry-Tweaks\ExplorerNoShaking.reg</File>
-		<File>D:\Registry-Tweaks\ExplorerSettings.reg</File>
-		<File>D:\Registry-Tweaks\HideInsiderPage.reg</File>
-		<File>D:\Registry-Tweaks\HideUnwantedSettings.reg</File>
-		<File>D:\Registry-Tweaks\ListAdminsInUAC.reg</File>
-		<File>D:\Registry-Tweaks\MouseHoverTime.reg</File>
-		<File>D:\Registry-Tweaks\NoAllowOnlineTips.reg</File>
-		<File>D:\Registry-Tweaks\NoDownloadsBlocking.reg</File>
-		<File>D:\Registry-Tweaks\NoEdgeShortcut.reg</File>
-		<File>D:\Registry-Tweaks\NoErrorReporting.reg</File>
-		<File>D:\Registry-Tweaks\NoInstallMRT.reg</File>
-		<File>D:\Registry-Tweaks\NoMenuShowDelay.reg</File>
-		<File>D:\Registry-Tweaks\NoNewAppAlert.reg</File>
-		<File>D:\Registry-Tweaks\NoRemoteAssistance.reg</File>
-		<File>D:\Registry-Tweaks\NoSearchboxSuggestions.reg</File>
-		<File>D:\Registry-Tweaks\NoTimeline.reg</File>
-		<File>D:\Registry-Tweaks\NoUseStoreOpenWith.reg</File>
-		<File>D:\Registry-Tweaks\RegFix Power.reg</File>
-		<File>D:\Registry-Tweaks\Remove_Home_from_navigation_pane_in_File_Explorer.reg</File>
-		<File>D:\Registry-Tweaks\TaskbarNoCortanaTaskview.reg</File>
-		<File>D:\Registry-Tweaks\VerboseLogonMessages.reg</File>
-		<File>D:\Registry-Tweaks\disable onedrive user folder backup.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\BitlockerAllowPIN.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\ConfirmationCheckBoxDoForAll.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable Aero Shake.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\disable onedrive user folder backup.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable Windows 11 startup sound.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\Disable_sign_in_to_Microsoft_Edge.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableLMHosts.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableO365Autodiscover.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableOffice365SimplifiedAccountCreation.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableProxyAutodetect.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableStartupDelay.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\DisableTelemetry.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\ExplorerNoShaking.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\HideInsiderPage.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\HideUnwantedSettings.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\ListAdminsInUAC.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\MouseHoverTime.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoAllowOnlineTips.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoEdgeShortcut.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoErrorReporting.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoInstallMRT.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoLockscreenAcrylic.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoMenuShowDelay.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoNewAppAlert.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoRemoteAssistance.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoSearchboxSuggestions.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoTimeline.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\NoUseStoreOpenWith.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\RegFix Power.reg</File>
+		<File>D:\Nextcloud\NTLite\NTLite-Stuff\Registry-Tweaks\TaskbarNoCortanaTaskview.reg</File>
 	</Registry>
 </Preset>
